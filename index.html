@@ -322,6 +322,19 @@
         background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTW4H9arR_ulsPGpBUuuiabxwj_XFyrYtixjj5lRpy6Nw&amp;s=10');
       }
 
+      .card-visual.eight {
+        background-image: none;
+      }
+
+      .card-visual.eight img {
+        position: absolute;
+        inset: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        display: block;
+      }
+
       .card-body {
         padding: 1.2rem 1.2rem 1.3rem;
       }
@@ -517,6 +530,21 @@
           </article>
 
           <article class="card">
+            <div class="card-visual eight">
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQagtKKzT_BRNNIfmKoHyqTbPEunuv4t_R_7Cfl0pKwHQ&amp;s=10" alt="Basket Random 🏀 Play on CrazyGames" />
+              <span>Basket Random</span>
+            </div>
+            <div class="card-body">
+              <span class="tag">Sports</span>
+              <h3>Basket Random</h3>
+              <p>Crazy basketball action with unpredictable physics and competitive one-on-one matchups.</p>
+              <div class="card-footer">
+                <a class="button primary" href="https://unnamedgames452.github.io/BasketRandom/" target="_blank" rel="noreferrer">Play Now</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="card">
             <div class="card-visual seven"><span>10 Minutes Till Dawn</span></div>
             <div class="card-body">
               <span class="tag">Survival</span>
@@ -540,6 +568,7 @@
         </p>
       </section>
       
+      <footer>
         <p>© 2026 UnnamedGamesHub</p>
       </footer>
     </main>
