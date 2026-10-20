@@ -195,6 +195,25 @@
           url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSsgLyZ9ANgV1hvnhNjzt89BNtNxqyt8fz4paT0MeZD2w&s=10') center/cover no-repeat;
       }
 
+      .spotlight-meta {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.5rem;
+      }
+
+      .spotlight-tag {
+        display: inline-flex;
+        align-items: center;
+        background: rgba(34, 197, 94, 0.14);
+        border: 1px solid rgba(34, 197, 94, 0.45);
+        color: #bbf7d0;
+        border-radius: 999px;
+        padding: 0.38rem 0.7rem;
+        font-size: 0.7rem;
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
+      }
+
       .spotlight-stats {
         display: grid;
         grid-template-columns: repeat(3, minmax(0, 1fr));
@@ -222,7 +241,7 @@
       }
 
       .stat.status-online strong {
-        color: var(--accent);
+        color: var(--secondary);
       }
 
       section {
@@ -427,10 +446,14 @@
             <div class="game-spotlight">
               <div class="spotlight-header">
                 <span>Featured</span>
-                <span>Now Live</span>
+                <span>Now Fixed</span>
               </div>
               <div class="spotlight-card">
                 <div class="spotlight-box"></div>
+                <div class="spotlight-meta">
+                  <span class="spotlight-tag">Retro Bowl</span>
+                  <span class="spotlight-tag">Analytics Added</span>
+                </div>
                 <div class="spotlight-stats">
                   <div class="stat">
                     <strong>3</strong>
@@ -441,8 +464,8 @@
                     <span>All Games Online</span>
                   </div>
                   <div class="stat">
-                    <strong>1</strong>
-                    <span>Under Maintenance</span>
+                    <strong>0</strong>
+                    <span>Games Under Maintenance</span>
                   </div>
                 </div>
               </div>
@@ -501,7 +524,7 @@
               <h3>Retro Bowl</h3>
               <p>Experience classic football gameplay with retro-style graphics and addictive action.</p>
               <div class="card-footer">
-                <button class="button secondary" disabled aria-disabled="true">Under Maintenance</button>
+                <a class="button primary" href="https://unnamedgames452.github.io/retro-bowl/" target="_blank" rel="noreferrer">Play Now</a>
               </div>
             </div>
           </article>
@@ -547,7 +570,7 @@
 
           <article class="card">
             <div class="card-visual eight">
-              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRk6xPWK018aKReNlm_L1nT6j5PJVMmzAJ0KOt6hwGezg&amp;s=10" alt="The Hypnotizing Simplicity of Hollow Knight — Scene+Heard" /[...]
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRk6xPWK018aKReNlm_L1nT6j5PJVMmzAJ0KOt6hwGezg&amp;s=10" alt="The Hypnotizing Simplicity of Hollow Knight — Scene+Heard" />
               <span>Hollow Knight</span>
             </div>
             <div class="card-body">
@@ -592,7 +615,7 @@
 
           <article class="card">
             <div class="card-visual eight">
-              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSnMTP45Tr5uJA48O8BRvh4sWlPFmDWNkGAR_941dMMg&amp;s=10" alt="PolyTrack 0.3.0 - Checkpoints &amp; leaderboards - PolyTrack" /[...]
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSnMTP45Tr5uJA48O8BRvh4sWlPFmDWNkGAR_941dMMg&amp;s=10" alt="PolyTrack 0.3.0 - Checkpoints &amp; leaderboards - PolyTrack" />
               <span>Poly Track</span>
             </div>
             <div class="card-body">
@@ -607,7 +630,7 @@
 
           <article class="card">
             <div class="card-visual eight">
-              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBZKE-_ttbttBmFV-79CzrZysTy9AYZvn3EzcwDl_Shg&amp;s=10" alt="Crazy Cattle 3D (video game, battle royale, third-person, anim[...]
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBZKE-_ttbttBmFV-79CzrZysTy9AYZvn3EzcwDl_Shg&amp;s=10" alt="Crazy Cattle 3D (video game, battle royale, third-person, animal-themed)" />
               <span>Crazy Cattle 3D</span>
             </div>
             <div class="card-body">
