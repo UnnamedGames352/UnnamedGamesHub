@@ -315,7 +315,16 @@
       }
 
       .card-visual.one {
-        background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgC3NHkRqcYMEaG1FlLPwfU6lk32HljuGkz-R6NNy4GQ&amp;s=10');
+        background-image: none;
+      }
+
+      .card-visual.one img {
+        position: absolute;
+        inset: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        display: block;
       }
 
       .card-visual.two {
@@ -327,7 +336,16 @@
       }
 
       .card-visual.four {
-        background-image: url('https://images.unsplash.com/photo-1547347298-4074fc3086f0?auto=format&fit=crop&w=1200&q=80');
+        background-image: none;
+      }
+
+      .card-visual.four img {
+        position: absolute;
+        inset: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        display: block;
       }
 
       .card-visual.five {
@@ -482,7 +500,10 @@
 
         <div class="games-grid">
           <article class="card">
-            <div class="card-visual one"><span>Brotato</span></div>
+            <div class="card-visual one">
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQc71TdKnjLCLeI1u1FxL0mzdoXsgJVc9AD2q_cfsDP7Q&amp;s=10" alt="Brotato Review - Niche Gamer" />
+              <span>Brotato</span>
+            </div>
             <div class="card-body">
               <span class="tag">Action</span>
               <h3>Brotato</h3>
@@ -518,7 +539,10 @@
           </article>
 
           <article class="card">
-            <div class="card-visual four"><span>Retro Bowl</span></div>
+            <div class="card-visual four">
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgC3NHkRqcYMEaG1FlLPwfU6lk32HljuGkz-R6NNy4GQ&amp;s=10" alt="Retro Bowl Review (Switch eShop) | Nintendo Life" />
+              <span>Retro Bowl</span>
+            </div>
             <div class="card-body">
               <span class="tag">Sports</span>
               <h3>Retro Bowl</h3>
